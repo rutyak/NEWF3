@@ -1,0 +1,182 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.side-navbar{
+    width: 25%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+}
+
+.side-navbar img{
+    margin-left: 3rem;
+    /* margin: 3rem; */
+    max-width: 100%;
+    width: 17rem;
+}
+.side-navbar .p1{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: -1.6rem;
+
+}
+
+.side-navbar .p2{
+    color: red;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 0.2rem;
+}
+
+.start p{
+    text-align: center;
+    font-weight: 600;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.end p{
+    text-align: center;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+hr{
+    height: 0.02em;
+    background: gray;
+    border: 0;
+    margin-top: 1.3rem;
+    margin-bottom: -0.5rem;
+}
+
+/* --------------------navbar------------------------ */
+
+.navbar{
+    display: flex;
+    margin-left: 22.9rem;
+    gap: 1rem;
+    background-color: #191D20;
+    /* margin: 0rem; */
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
+.navbar input{
+    width: 44rem;
+    height: 2rem;
+    border: 1px solid gray;
+    border-radius: 0.2rem;
+    background-color: #3d3939;
+    padding-left: 1rem;
+}
+
+.navbar button{
+    width: 8rem;
+    height: 2rem;
+    background-color: red;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 0.2rem;
+}
+
+.navbar img{
+    width: 2.5rem;
+    margin-top: -0.2rem;
+}
+
+/* ------------------------------main------------------------------------------ */
+
+#main-container {
+    background-color: #0b0c0c;
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    margin-left: 22.9rem;
+    color: white;
+    gap: 1rem;
+    /* padding-top: 31rem; */
+}
+#main-container .items{
+    padding: 1rem;
+    background-color: #191D20;
+    margin-left: 1rem;
+    margin-right: 1rem;
+   
+}
+
+#main-container img{
+    width: 100%;
+    height: auto;
+    border: 1px solid #201c1c;
+    border-radius: 0.4rem;
+}
+
+.menu{
+    margin-left: 22.9rem; 
+    color: white;
+}
+
+#main-container .details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main-container .details img{
+    width: 1.8rem;
+}
+ 
+/* --------------------------------middle-------------------------- */
+
+.middle{
+    width: 75%;
+    margin-left: 22.9rem;
+    background-color: #0b0c0c;
+    color: white;
+    /* position: static;
+    top: 0; */
+}
+.middle img{
+    width: 97%;
+    margin: 1rem;
+}
+
+.middle p{
+    margin-left: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 0.8rem;
+}
+
+
+/* .side-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .navbar {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 1;
+  }
+  
+  .middle {
+    margin-top: 80px; /* Adjust this value according to your needs */
+  /* } */
+  
+  /* #main-container {
+    margin-top: 20px; /* Adjust this value according to your needs */
+  /* } */
